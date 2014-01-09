@@ -26,7 +26,7 @@ namespace BtcE
 				Sell = o.Value<decimal>("sell"),
 				Volume = o.Value<decimal>("vol"),
 				VolumeCurrent = o.Value<decimal>("vol_cur"),
-				ServerTime = o.Value<UInt32>("server_time"),
+				ServerTime = o.Value<UInt32>("updated"),
 			};
 		}
 	}
